@@ -9,6 +9,7 @@ RUN apk add --no-cache \
         php8-mbstring \
         php8-gd \
         php8-ldap \
+        php8-mysqlnd \
         php8-pgsql \
         php8-tidy \
         php8-intl \
