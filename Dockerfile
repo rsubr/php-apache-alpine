@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.14
 LABEL Author="Raja Subramanian" Description="A comprehensive docker image to run Apache-2.4 PHP-8.0 applications like Wordpress, Laravel, etc"
 
 # Install apache and php8

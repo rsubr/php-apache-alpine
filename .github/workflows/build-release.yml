@@ -3,6 +3,7 @@ name: multi-arch docker build using qemu
 on:
   push:
     branches: master
+  workflow_dispatch:
 
 jobs:
   build:
@@ -28,4 +29,5 @@ jobs:
         run: |
           docker buildx build --push \
             --tag rsubr/php-apache-alpine:latest \
+            --tag rsubr/php-apache-alpine:3.14 \
             --platform linux/amd64,linux/arm64 .
