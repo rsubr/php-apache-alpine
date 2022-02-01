@@ -5,6 +5,7 @@ LABEL Author="Raja Subramanian" Description="A comprehensive docker image to run
 RUN apk add --no-cache \
         php8 \
         php8-apache2 \
+        php8-ctype \
         php8-curl \
         php8-mbstring \
         php8-gd \
