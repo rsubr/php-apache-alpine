@@ -7,6 +7,7 @@ RUN apk add --no-cache \
         php8-apache2 \
         php8-ctype \
         php8-curl \
+        php8-fileinfo \
         php8-mbstring \
         php8-gd \
         php8-ldap \
